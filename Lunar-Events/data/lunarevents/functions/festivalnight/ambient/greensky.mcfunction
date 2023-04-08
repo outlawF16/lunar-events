@@ -1,0 +1,2 @@
+execute if score @p days matches 7 if score @p fn.rng matches 1 run schedule function lunarevents:festivalnight/ambient/greensky 18s
+execute as @a[predicate=lunarevents:level/56-384] at @s run playsound entity.glow_squid.ambient ambient @s ~ ~ ~

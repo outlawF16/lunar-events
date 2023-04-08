@@ -1,0 +1,2 @@
+execute if score @p days matches 7 if score @p nm.rng matches 1 run schedule function lunarevents:nethermoon/ambient/screams 30s 
+execute as @a at @s run playsound ambient.crimson_forest.mood ambient @s ~ ~ ~ 1 0.5
