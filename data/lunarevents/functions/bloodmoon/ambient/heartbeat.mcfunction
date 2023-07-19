@@ -1,0 +1,2 @@
+execute if score @p days matches 7 if score @p bm.rng matches 1 run schedule function lunarevents:bloodmoon/ambient/heartbeat 1s
+execute as @a[scores={HP=..8}] at @s run playsound block.conduit.ambient ambient @s ~ ~ ~ 2 
